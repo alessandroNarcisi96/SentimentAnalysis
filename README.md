@@ -20,11 +20,13 @@ Let's start by plotting the wordclouds and the length distribuition of the comme
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_neg.png" width="45%">
 </p>
 
+<p align="center">
+  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/positive_cloud.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_pos.png" width="45%">
+</p>
 
-![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud.png)<br/>
-![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_neg.png)
-![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/positive_cloud.png)<br/>
-![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_pos.png)
+
 ## MILESTONE 1:DATA CLEANING<br/>
 
 The first challenge to deal with is that the comments are full of noise and useless expressions such as punctuation and emoticons that our models will not consider.<br/>
