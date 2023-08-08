@@ -96,7 +96,7 @@ As shown,the test line is quite fluctuating until the 6th epoch.After that,the a
 ## MILESTONE 4:MODEL RESULTS
 
 ### Results
-
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/report.png)
 ### Explainability
 We can't rely on a model that we can't understand.<br/>
 For this reason,in this project I've introduced a framework based on LIME that allows us to understand what the model considers relevant and how much.<br/>
@@ -107,6 +107,8 @@ LIME ( Local Interpretable Model-agnostic Explanations )is a novel explanation t
 Below there are two very simple examples namely "I love you" and "I hate you".<br/>
 The result will be the role that every word has in the sentence and its height.<br/>
 In this way it's possible to understand whether the model is truly understanding what the sentence actually means and it offers us a window on its way to think<br/>
+
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/love_hate.png)
 
 ### Understand the misclassified comments
 Now let's apply LIME to two misclassified sentences
