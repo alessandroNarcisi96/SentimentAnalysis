@@ -14,7 +14,7 @@ This notebook aims at building a sentiment classifier from the content of the da
 Is there any significant difference between a negative comment and a positive comment?<br/>
 Let's start by plotting the wordclouds and the length distribuition of the comments
 
-![alt-text-1](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud.png "title-1" =20%x) ![alt-text-2](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_neg.png "title-2" =75%x)
+<img src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud.png" width="425"/> <img src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_neg.png" width="425"/> 
 
 
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud.png)<br/>
