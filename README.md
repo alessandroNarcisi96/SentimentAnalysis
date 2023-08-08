@@ -15,10 +15,10 @@ Is there any significant difference between a negative comment and a positive co
 Let's start by plotting the wordclouds and the length distribuition of the comments
 
 <p float="left">
-  <img src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud.png" width="50" />
-  <img src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_neg.png" width="50" /> 
-
+  <img src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud.png" width="90" />
+  <img src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_neg.png" width="90" /> 
 </p>
+
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud.png)<br/>
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_neg.png)
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/positive_cloud.png)<br/>
