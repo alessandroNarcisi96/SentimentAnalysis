@@ -90,6 +90,9 @@ SEE IMAGE
 
 As shown,the test line is quite fluctuating until the 6th epoch.After that,the accuracy results to be very stable and coherent with the training accuracy.<br/>
 
+
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/tensorboard.png)
+
 ## MILESTONE 4:MODEL RESULTS
 
 ### Results
