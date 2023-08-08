@@ -48,12 +48,14 @@ A word embedding is a representation of a word in numerical format.This conversi
 Contextualizing word embeddings, as demonstrated by BERT, ELMo, and GPT-2, has proven to be a game-changing innovation in NLP.<br/> The use of contextualized word representations instead of static vectors (e.g., word2vec) has improved nearly every NLP task<br/>
 Think about the word ’mouse’. It has multiple meanings, one of which refers to a rodent and the other to a device. Is BERT able to properly build one ’mouse’ representation per word sense?<br/>
 Let's dive deeper in the process:<br/>
-
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/mouse.png)
 ### Tokenization
 Tokenizer takes the input sentence and will decide to keep every word as a whole word, split it into sub words(with special representation of first sub-word and subsequent subwords — see ## symbol in the example above) or as a last resort decompose the word into individual characters. <br/>
 Because of this, we can always represent a word as, at the very least, the collection of its individual characters.
 
 After that,each segment is converted into an assigned number or id.<br/>
+
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/token.png)
 
 
 ### BERT 
