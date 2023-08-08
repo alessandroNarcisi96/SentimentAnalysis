@@ -4,7 +4,7 @@
 
 Sentiment analysis (or opinion mining) is a natural language processing (NLP) technique used to determine whether data is positive, negative or neutral. Sentiment analysis is often performed on textual data to help businesses monitor brand and product sentiment in customer feedback, and understand customer needs
 
-![alt text](https://github.com/alessandroNarcisi96/MovieRecommendation/blob/master/Images/sentiment.png)
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/sentiment.png)
 
 This notebook aims at building a sentiment classifier from the content of the dataset that contains around 7000 short comments <br/>
 
