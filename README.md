@@ -128,6 +128,6 @@ This sentence is clearly negative,but let'see how our model classifies it during
 ## MILESTONE 4:MODEL RESULTS
 
 ### Results
-![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/report.png)
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/report2.png)
 
 Our model struggle a little bit more to detect positive comments and it could be explained by at least two reasons:
