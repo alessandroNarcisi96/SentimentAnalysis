@@ -149,7 +149,20 @@ Let's plot the distribuition:<br/>
      Misclassified comments length
 </p>
 <p align="center">
-
+<table>
+<tr>
+<th>
+<p width ="50%" align="center">
+    Dataset comments length
+</p>
+</th>
+<th>
+<p width ="50%" align="center">
+    Dataset comments length
+</p>
+</th>
+</tr>
+</table>
   <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
 
