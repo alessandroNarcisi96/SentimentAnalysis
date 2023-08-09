@@ -103,25 +103,21 @@ LIME ( Local Interpretable Model-agnostic Explanations )is a novel explanation t
 Below there are two very simple examples namely "I love you" and "I hate you".<br/>
 The result will be the role that every word has in the sentence and its height.<br/>
 In this way it's possible to understand whether the model is truly understanding what the sentence actually means and it offers us a window on its way to think<br/>
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/exp.png)
+
 
 ### How can use explainability?
-We can use this technique to check how model is learning and getting new knowledge over the epochs.
-For example look at the following sentence:
-"i fucking hate my computer  it s all fucked up so now i can t listen to music  or do anything else much"
-This sentence is clearly negative,but let'see how our model classifies it during the training:
-<p align="center">
-  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_1.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_2.png" width="45%">
-</p>
-<p align="center">
-  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_4.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_5.png" width="45%">
-</p>
+We can use this technique to check how model is learning and getting new knowledge over the epochs.<br/>
+For example look at the following sentence:<br/>
+"i fucking hate my computer  it s all fucked up so now i can t listen to music  or do anything else much"<br/>
+This sentence is clearly negative,but let'see how our model classifies it during the training:<br/>
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_1.png)
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_2.png)
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_4.png)
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_6.png)
 
 
-![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/love_hate.png)
+
 ## MILESTONE 4:MODEL RESULTS
 
 ### Results
