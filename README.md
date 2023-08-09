@@ -30,7 +30,9 @@ Let's start by plotting the wordclouds and the length distribuition of the comme
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_pos.png" width="45%">
 </p>
-
+As shown,There a lot of common words in both comments that don't carry any particular meaning.<br/>
+Our challenge is to help the model to detect the words that identify the sentiment of a comment.<br/>
+Focusing on the length,the sentences seems quite similar except for the fact that the negative comments are sligthly longer than the positive ones.<br/>
 
 ## MILESTONE 1:DATA CLEANING<br/>
 
@@ -132,14 +134,16 @@ This sentence is clearly negative,but let'see how our model classifies it during
 
 ### Understading the misclassified comments to improve the performance
 A sentence clearly positive,but that our models classifies as a negative is the following:<br/>
-<b>"only one exam left and i am so happy for it d"</b>
+<b>"only one exam left and i am so happy for it d"</b><br/>
 Let's dive deeper:<br/>
+
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/misclassify.png)
 The model detect correctly that happy is a positive word,but it thinks that "only" and "exam" have a negative meaning.<br/>
 Why could it be the case?<br/>
 If we search into the training dataset we can see that there are 148 sentences that contain "exam" or "only", but just 50 are positive comments.<br/>
-So the first problem to address is to ensure that we have enough examples to help the model to understand better the exact meaning of the vocabulary.<br/>
-Is there a relation betweem the length of the sentence and the performance?<br/>
+<b>So the first problem to address is to ensure that we have enough examples to help the model to understand better the exact meaning of the vocabulary.<b><br/>
+&nbsp; &nbsp; &nbsp; &nbsp;
+<b>Is there a relation betweem the length of the sentence and the performance?<b><br/>
 Let's plot the distribuition:<br/>
 
 
@@ -154,3 +158,11 @@ Let's plot the distribuition:<br/>
 <p align="center">
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_neg_1.png" width="45%">
 </p>
+
+As shown, the distribution in case of misclassfied comments has a peak for the longest comments<br/>
+This means that our models struggles to weight properly each sentence.<br/>
+For example:"At the beginning, I hated it but after a while i started to like it"<br/>
+The first sentence carries a negative meaning but it is the second one to establish the general sentiment<br/>
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/example.png)</br>
+
+A possible solution could be breaking the comment into more senteces and then computing a weight average of the prediction.</br>
