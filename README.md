@@ -130,4 +130,22 @@ This sentence is clearly negative,but let'see how our model classifies it during
 ### Results
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/report2.png)
 
-Our model struggle a little bit more to detect positive comments and it could be explained by at least two reasons:
+### Understading the misclassified comments to improve the performance
+A sentence clearly positive,but that our models classifies as a negative is the following:<br/>
+<b>"only one exam left and i am so happy for it d"</b>
+Let's dive deeper:<br/>
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/misclassify.png)
+The model detect correctly that happy is a positive word,but it thinks that "only" and "exam" have a negative meaning.<br/>
+Why could it be the case?<br/>
+If we search into the training dataset we can see that there are 148 sentences that contain "exam" or "only", but just 50 are positive comments.<br/>
+So the first problem to address is to ensure that we have enough examples to help the model to understand better the exact meaning of the vocabulary.<br/>
+Is there a relation betweem the length of the sentence and the performance?<br/>
+Let's plot the distribuition:<br/>
+
+<p align="center">
+  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_pos.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_neg.png" width="45%">
+</p>
