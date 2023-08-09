@@ -101,19 +101,24 @@ What is LIME?<br/>
 LIME ( Local Interpretable Model-agnostic Explanations )is a novel explanation technique that explains the prediction of any classifier in an interpretable and faithful manner by learning an interpretable model locally around the prediction.<br/>
 
 Below there are two very simple examples namely "I love you" and "I hate you".<br/>
-The result will be the role that every word has in the sentence and its height.<br/>
+<b>The result will be the role that every word has in the sentence and its height.</b><br/>
 In this way it's possible to understand whether the model is truly understanding what the sentence actually means and it offers us a window on its way to think<br/>
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/exp.png)
 
 
-### How can use explainability?
+### How can use explainability?<br/>
 We can use this technique to check how model is learning and getting new knowledge over the epochs.<br/>
 For example look at the following sentence:<br/>
-<b>"i fucking hate my computer  it s all fucked up so now i can t listen to music  or do anything else much"<b><br/>
-This sentence is clearly negative,but let'see how our model classifies it during the training:<br/>
+<b>"i fucking hate my computer  it s all fucked up so now i can t listen to music  or do anything else much"</b>
+<br/>
+This sentence is clearly negative,but let'see how our model classifies it during the training:<br/><br/>
+&nbsp; &nbsp;
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_1.png)
+ &nbsp; &nbsp;
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_2.png)
+ &nbsp; &nbsp;
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_4.png)
+ &nbsp; &nbsp;
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_6.png)
 
 
@@ -123,6 +128,4 @@ This sentence is clearly negative,but let'see how our model classifies it during
 ### Results
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/report.png)
 
-
-### Understand the misclassified comments
-Now let's apply LIME to two misclassified sentences
+Our model struggle a little bit more to detect positive comments and it could be explained by at least two reasons:
