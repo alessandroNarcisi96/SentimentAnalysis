@@ -88,7 +88,7 @@ Finally, the result is normalized by a softmax.<br/>
 
 The loss function used is the CrossEntropyLoss with a batch size of 32 over 10 epochs.<br/>
 In order to detect overfitting and ensure stability,cross-validation is applied.<br/>
-
+On the y-axis there is the accuracy whereas on the x-axis there is the number of the epoch<br/>
 
 As shown,the test line is quite fluctuating until the 6th epoch.After that,the accuracy results to be very stable and coherent with the training accuracy.<br/>
 
@@ -142,7 +142,7 @@ The model detect correctly that happy is a positive word,but it thinks that "onl
 Why could it be the case?<br/>
 If we search into the training dataset we can see that there are 148 sentences that contain "exam" or "only", but just 50 are positive comments.<br/>
 <b>So the first problem to address is to ensure that we have enough examples to help the model to understand better the exact meaning of the vocabulary.</b><br/>
-&nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp;
 <b>Is there a relation betweem the length of the sentence and the performance?</b><br/>
 Let's plot the distribuition:<br/>
 
