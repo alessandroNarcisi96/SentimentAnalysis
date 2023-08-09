@@ -109,7 +109,7 @@ In this way it's possible to understand whether the model is truly understanding
 ### How can use explainability?
 We can use this technique to check how model is learning and getting new knowledge over the epochs.<br/>
 For example look at the following sentence:<br/>
-"i fucking hate my computer  it s all fucked up so now i can t listen to music  or do anything else much"<br/>
+<b>"i fucking hate my computer  it s all fucked up so now i can t listen to music  or do anything else much"<b><br/>
 This sentence is clearly negative,but let'see how our model classifies it during the training:<br/>
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_1.png)
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_2.png)
