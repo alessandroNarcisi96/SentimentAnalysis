@@ -141,7 +141,7 @@ Let's dive deeper:<br/>
 The model detect correctly that happy is a positive word,but it thinks that "only" and "exam" have a negative meaning.<br/>
 Why could it be the case?<br/>
 If we search into the training dataset we can see that there are 148 sentences that contain "exam" or "only", but just 50 are positive comments.<br/>
-<b>So the first problem to address is to ensure that we have enough examples to help the model to understand better the exact meaning of the vocabulary.<b><br/>
+<b>So the first problem to address is to ensure that we have enough examples to help the model to understand better the exact meaning of the vocabulary.</b><br/>
 &nbsp; &nbsp; &nbsp; &nbsp;
 <b>Is there a relation betweem the length of the sentence and the performance?<b><br/>
 Let's plot the distribuition:<br/>
@@ -161,7 +161,7 @@ Let's plot the distribuition:<br/>
 
 As shown, the distribution in case of misclassfied comments has a peak for the longest comments<br/>
 This means that our models struggles to weight properly each sentence.<br/>
-For example:"At the beginning, I hated it but after a while i started to like it"<br/>
+For example:<b>"At the beginning, I hated it but after a while i started to like it"</b><br/>
 The first sentence carries a negative meaning but it is the second one to establish the general sentiment<br/>
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/example.png)</br>
 
