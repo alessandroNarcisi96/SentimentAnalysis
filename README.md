@@ -143,9 +143,19 @@ Is there a relation betweem the length of the sentence and the performance?<br/>
 Let's plot the distribuition:<br/>
 
 <p align="center">
+    Dataset comments length
+</p>
+<p align="center">
+
   <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
+<p align="center">
+    Correctly classified comments length
+</p>
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_pos.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
+<p align="center">
+    Misclassified comments length
+</p>
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_neg.png" width="45%">
 </p>
