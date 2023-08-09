@@ -142,15 +142,9 @@ So the first problem to address is to ensure that we have enough examples to hel
 Is there a relation betweem the length of the sentence and the performance?<br/>
 Let's plot the distribuition:<br/>
 
-<p width ="50%" align="left">
-    Dataset comments length
-</p>
-<p width ="50%" align="right">
-     Misclassified comments length
-</p>
-<p align="center">
+
 <table>
-<tr>
+<tr width ="100%">
 <th>
 <p width ="50%" align="center">
     Dataset comments length
