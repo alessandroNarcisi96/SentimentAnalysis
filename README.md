@@ -144,11 +144,12 @@ Let's plot the distribuition:<br/>
 
 
 
+<p align="center">
   <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_1.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-
+</p>
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_pos_1.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-
+<p align="center">
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_neg_1.png" width="45%">
 </p>
