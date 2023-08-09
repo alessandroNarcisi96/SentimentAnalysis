@@ -32,7 +32,7 @@ Let's start by plotting the wordclouds and the length distribuition of the comme
 </p>
 As shown,There a lot of common words in both comments that don't carry any particular meaning.<br/>
 Our challenge is to help the model to detect the words that identify the sentiment of a comment.<br/>
-Focusing on the length,the sentences seems quite similar except for the fact that the negative comments are sligthly longer than the positive ones.<br/>
+Focusing on the length,the sentences seem quite similar except for the fact that the negative comments are sligthly longer than the positive ones.<br/>
 
 ## MILESTONE 1:DATA CLEANING<br/>
 
