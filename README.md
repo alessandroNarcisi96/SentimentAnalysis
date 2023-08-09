@@ -143,7 +143,7 @@ Why could it be the case?<br/>
 If we search into the training dataset we can see that there are 148 sentences that contain "exam" or "only", but just 50 are positive comments.<br/>
 <b>So the first problem to address is to ensure that we have enough examples to help the model to understand better the exact meaning of the vocabulary.</b><br/>
 
-<b>Is there a relation betweem the length of the sentence and the performance?</b><br/>
+<b>Is there a relation between the length of the sentence and the performance?</b><br/>
 Let's plot the distribuition:<br/>
 
 
