@@ -111,8 +111,10 @@ We can use this technique to check how model is learning and getting new knowled
 For example look at the following sentence:<br/>
 <b>"i fucking hate my computer  it s all fucked up so now i can t listen to music  or do anything else much"</b>
 <br/>
-This sentence is clearly negative,but let'see how our model classifies it during the training:<br/><br/>
+This sentence is clearly negative,but let'see how our model classifies it during the training:
+<br/><br/>
 &nbsp; &nbsp;
+
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_1.png)
  &nbsp; &nbsp;
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_2.png)
