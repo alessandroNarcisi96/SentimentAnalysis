@@ -143,25 +143,12 @@ Is there a relation betweem the length of the sentence and the performance?<br/>
 Let's plot the distribuition:<br/>
 
 
-<table>
-<tr width ="100%">
-<th>
-<p width ="50%" align="center">
-    Dataset comments length
-</p>
-</th>
-<th>
-<p width ="50%" align="center">
-    Dataset comments length
-</p>
-</th>
-</tr>
-</table>
-  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len.png" width="45%">
+
+  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_1.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
 
-  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_pos.png" width="45%">
+  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_pos_1.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
 
-  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_neg.png" width="45%">
+  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len_neg_1.png" width="45%">
 </p>
