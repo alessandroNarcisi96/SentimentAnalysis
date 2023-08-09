@@ -142,11 +142,11 @@ So the first problem to address is to ensure that we have enough examples to hel
 Is there a relation betweem the length of the sentence and the performance?<br/>
 Let's plot the distribuition:<br/>
 
+
+<p align="center">
 <p align="center">
     Dataset comments length
 </p>
-<p align="center">
-
   <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_len.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
 <p align="center">
