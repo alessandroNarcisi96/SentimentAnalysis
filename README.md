@@ -18,7 +18,7 @@ Let's start by plotting the wordclouds and the length distribuition of the comme
     Negative Comments
 </p>
 <p align="center">
-  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud.png" width="45%">
+  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/negative_cloud1.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_neg.png" width="45%">
 </p>
@@ -26,7 +26,7 @@ Let's start by plotting the wordclouds and the length distribuition of the comme
     Positive Comments
 </p>
 <p align="center">
-  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/positive_cloud.png" width="45%">
+  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/positive_cloud1.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/dist_pos.png" width="45%">
 </p>
@@ -86,17 +86,13 @@ Finally, the result is normalized by a softmax.<br/>
 
 The loss function used is the CrossEntropyLoss with a batch size of 32 over 10 epochs.<br/>
 In order to detect overfitting and ensure stability,cross-validation is applied.<br/>
-SEE IMAGE
+
 
 As shown,the test line is quite fluctuating until the 6th epoch.After that,the accuracy results to be very stable and coherent with the training accuracy.<br/>
 
 
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/tensorboard.png)
 
-## MILESTONE 4:MODEL RESULTS
-
-### Results
-![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/report.png)
 ### Explainability
 We can't rely on a model that we can't understand.<br/>
 For this reason,in this project I've introduced a framework based on LIME that allows us to understand what the model considers relevant and how much.<br/>
@@ -108,7 +104,29 @@ Below there are two very simple examples namely "I love you" and "I hate you".<b
 The result will be the role that every word has in the sentence and its height.<br/>
 In this way it's possible to understand whether the model is truly understanding what the sentence actually means and it offers us a window on its way to think<br/>
 
+### How can use explainability?
+We can use this technique to check how model is learning and getting new knowledge over the epochs.
+For example look at the following sentence:
+"i fucking hate my computer  it s all fucked up so now i can t listen to music  or do anything else much"
+This sentence is clearly negative,but let'see how our model classifies it during the training:
+<p align="center">
+  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_1.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_2.png" width="45%">
+</p>
+<p align="center">
+  <img alt="Light" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_4.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/fuck_5.png" width="45%">
+</p>
+
+
 ![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/love_hate.png)
+## MILESTONE 4:MODEL RESULTS
+
+### Results
+![alt text](https://github.com/alessandroNarcisi96/SentimentAnalysis/blob/master/Images/report.png)
+
 
 ### Understand the misclassified comments
 Now let's apply LIME to two misclassified sentences
